@@ -1,0 +1,6 @@
+[submodule "react-todo"]
+	path = react-todo
+	url = https://github.com/aristo85/react-todo.git
+[submodule "nest-todo"]
+	path = nest-todo
+	url = https://github.com/aristo85/nest-todo.git

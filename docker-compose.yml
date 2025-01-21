@@ -1,0 +1,18 @@
+version: "3.8"
+
+services:
+  frontend:
+    build: ./react-shorturi
+    ports:
+      - "5173:5173" # Map Vite port
+    depends_on:
+      - backend
+    environment:
+      - VITE_API_URL=http://localhost:3000
+
+  backend:
+    build: ./nest-shorturi
+    ports:
+      - "3000:3000" # Map backend port
+    environment:
+      - NODE_ENV=development
