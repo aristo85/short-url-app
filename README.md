@@ -15,9 +15,7 @@ shorturl-app/
  # Clone the Repository:
 First, clone the repository to your local machine:
 ```bash
-git clone https://github.com/your-username/shorturl-app.git
-cd shorturl-app
-git submodule update --init --recursive
+git clone https://github.com/aristo85/short-url-app.git
 ```
 
 ## 🛠️ **Local Installation:**
